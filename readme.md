@@ -12,7 +12,7 @@ The microservices are orchestrated using Kubernetes with Ingress routing for eas
 
 ## Demo
 
-[Watch the Demo](https://youtu.be/MEQb02ErEtc)
+[![Watch the Demo](https://img.youtube.com/vi/MEQb02ErEtc/0.jpg)](https://www.youtube.com/watch?v=MEQb02ErEtc)
 
 ## Architecture
 
