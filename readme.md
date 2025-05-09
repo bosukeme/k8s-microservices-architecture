@@ -12,15 +12,10 @@ The microservices are orchestrated using Kubernetes with Ingress routing for eas
 
 ## Demo
 
-<video width="700" controls>
-  <source src="https://github.com/bosukeme/k8s-microservices-architecture/raw/main/assets/home-page.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-
-</video>
+[![Demo](./assets/home-page-gif.gif)](https://www.youtube.com/watch?v=MEQb02ErEtc)
 
 ## Architecture
-
-  <img src="./assets/architecture.png" alt="Alt Text" width="700px">
+<img src="./assets/architecture.png" alt="Alt Text" width="700px">
 
 ## Prerequisites
 
