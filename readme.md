@@ -96,6 +96,15 @@ The microservices are orchestrated using Kubernetes with Ingress routing for eas
     ```
     kubectl patch svc ingress-nginx-controller -n ingress-nginx -p '{"spec": {"type": "LoadBalancer"}}'
     ```
+    - Enable Ingress:
+    ```
+    minikube addons enable ingress
+    ```
+
+    - Use localhost instead. This will return a list of localhost url for a particular service
+    ```
+    minikube service list
+    ```
 
 7.  Deploy the Node API <br />
     Open a new terminal:

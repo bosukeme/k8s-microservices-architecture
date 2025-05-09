@@ -1,12 +1,45 @@
-# React + Vite
+# React Vite Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive React application built with Vite for blazing-fast development. This project includes a timezone selector to dynamically render time-based data from different API backends.
 
-Currently, two official plugins are available:
+## Technologies Used
+- React - JavaScript library for building user interfaces
+- Vite - Next-generation frontend tooling
+- React Icons - Icons for React applications
+- Tailwind CSS - Utility-first CSS framework for styling
+- Docker - Containerization for consistent environments
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Install the dependencies:
 
-## Expanding the ESLint configuration
+    npm install
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Running the Application
+
+    npm run dev
+
+By default, the application will run on `http://localhost:5173`.
+
+## Docker Setup
+
+    docker build -t react-vite-app .
+    docker run -p 5173:5173 react-vite-app
+
+The application will be accessible at `http://localhost:5173`.
+
+
+
+## Contributing
+
+If you would like to contribute, please follow these steps:
+
+- Fork the repository.
+- Create a new branch for your feature or bugfix.
+- Submit a pull request.
+
+## Authors
+
+Ukeme Wilson
+
+- <a href="https://www.linkedin.com/in/ukeme-wilson-4825a383/">Linkedin</a>.
+- <a href="https://medium.com/@ukemeboswilson">Medium</a>.
+- <a href="https://www.ukemewilson.sbs/">Website</a>.
